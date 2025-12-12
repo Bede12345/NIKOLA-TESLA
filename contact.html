@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+    <header>
+        <h1>Contact me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="inventions.html">Inventions</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section>
+        <h2>contact me</h2>
+        <p>use this form if you have any questions</p>
+        <form action="submit_contact_form" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <select name="most inerested invention" required>
+                <option value="" disabled selected>most inerested invention</option>
+                <option value="tesla coil">tesla coil</option>
+                <option value="ac system">ac system</option>
+                <option value="ac motor">ac motor</option>
+                <option value="radio">radio</option>
+                <option value="wireless transmission">wireless power transmission</option>
+            </select><br>
+                  <input type="checkbox" name="checkbox">I confirm the information above is correct<br>
+                  <input type="checkbox" name="checkbox">I agree to be contacted back<br>
+                  <input type="radio" name="radio">I accept the terms<br>
+                  <input type="radio" name="radio">I do not accept the terms<br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+     <footer>
+        <p>Bedemariyam Tamirat</p>
+        <p>&copy; 2025 Nikola Tesla Inventions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
