@@ -7,10 +7,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-<<<<<<< HEAD
 
-=======
->>>>>>> 1bc91c3234525a4525ca64a26b1beab4bc9543de
 }
 nav {
     background-color: #333;
@@ -29,22 +26,14 @@ nav a {
     margin-right: 20px;
 }
 nav a:hover {
-<<<<<<< HEAD
    color: red;
-=======
-    color: red;
->>>>>>> 1bc91c3234525a4525ca64a26b1beab4bc9543de
 }
 .container {
     width: 80%;
     margin: 30px auto;
 }
 h1,h2{
-<<<<<<< HEAD
     margin-bottom: 15px;
-=======
-    margin-bottom: 20px;
->>>>>>> 1bc91c3234525a4525ca64a26b1beab4bc9543de
 }
 section {
     margin-bottom: 30px;
@@ -70,21 +59,14 @@ table {
     width: 100%;
     background-color: white;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin-top: 15px;
 }
 th, td {
-=======
-    margin-top: 20px;
-}
-th,td {
->>>>>>> 1bc91c3234525a4525ca64a26b1beab4bc9543de
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
 }
 th {
-<<<<<<< HEAD
     background-color: rgba(75, 73, 73, 0.589);
     color: white;
 }
@@ -92,14 +74,6 @@ form {
     margin-top: 20px;
     padding: 20px;
     border: 1px solid black;
-=======
-    background-color: #f2f2f21d;
-    color: white;
-}
-form {
-    border: 1px solid black;
-    padding: 20px;
->>>>>>> 1bc91c3234525a4525ca64a26b1beab4bc9543de
     background-color: #ffffff;
 }
 label {
@@ -123,24 +97,4 @@ input[type="submit"] {
     border: 1px solid black;
     padding: 10px 20px;
     cursor: pointer;
-<<<<<<< HEAD
 }
-=======
-}
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-table {
-    width: 100%;
-    margin-top: 20px;
-}
-th, td {
-    padding: 15px;
-    text-align: left;
-}
-th {
-    background-color: #0202024a;
-    color: white;
-}
->>>>>>> 1bc91c3234525a4525ca64a26b1beab4bc9543de
