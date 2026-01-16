@@ -14,7 +14,7 @@ if (quoteElement.length > 0) {
 }
 const image = document.querySelectorAll("img");
 image.forEach((img) => {
-    
+    img.addEventListener("click", () => {
     });
 });
 const navLinks = document.querySelectorAll("nav a");
