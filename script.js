@@ -15,6 +15,7 @@ if (quoteElement.length > 0) {
 const image = document.querySelectorAll("img");
 image.forEach((img) => {
     img.addEventListener("click", () => {
+        img.classList.toggle("zoomed");
     });
 });
 const navLinks = document.querySelectorAll("nav a");
