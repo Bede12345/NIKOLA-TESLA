@@ -14,16 +14,7 @@ if (quoteElement.length > 0) {
 }
 const image = document.querySelectorAll("img");
 image.forEach((img) => {
-    img.addEventListener("click", () => {
-        if (img.style.transform === "scale(1.5)") {
-            img.style.transform = "scale(1)";
-            img.style.cursor = "zoom-in";
-            img.style.zIndex = "10";
-        } else {
-            img.style.transform = "scale(1.5)";
-            img.style.cursor = "zoom-out";
-            img.style.zIndex = "10";
-        }
+    
     });
 });
 const navLinks = document.querySelectorAll("nav a");
