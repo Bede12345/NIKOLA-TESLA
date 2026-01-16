@@ -98,3 +98,5 @@ input[type="submit"] {
     padding: 10px 20px;
     cursor: pointer;
 }
+img.zoomed {
+    trasnform: scale(1.5);
