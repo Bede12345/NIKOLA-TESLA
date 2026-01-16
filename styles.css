@@ -101,3 +101,5 @@ input[type="submit"] {
 img.zoomed {
     trasnform: scale(1.5);
     cursor: zoom-out;
+    z-index: 10;
+}
